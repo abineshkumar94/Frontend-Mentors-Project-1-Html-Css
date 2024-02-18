@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  position: relative;
+}
+
+.headerBg {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.copyrightimg1 {
+  position: absolute;
+  left: 45%;
+  width: 8%;
+  height: 15vh;
+  margin: 0%;
+  top: 5%;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: #4e5358;
+  font-size: 2.5em;
+}
+
+.h3Heading1 {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 1%;
+  color: #b7babb;
+}
+
+.h3Heading2 {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 0.5%;
+  color: #b7babb;
+}
+
+.btnContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  gap: 2%;
+}
+
+.btnIos {
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #ffffff;
+  padding: 5px 5px;
+  background-color: #28baa5;
+  border: none;
+  width: 10%;
+  height: 6vh;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.btnMac {
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #ffffff;
+  padding: 5px 5px;
+  background-color: #6471e5;
+  border: none;
+  width: 10%;
+  height: 6vh;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.secondHeading {
+  position: relative;
+  margin-top: 8%;
+  text-align: center;
+}
+
+.secondHeadingh1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: #4e5358;
+  font-size: 2em;
+}
+
+.secondHeadingh3One {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 2%;
+  color: #b7babb;
+}
+
+.secondHeadingh3Two {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 0.5%;
+  color: #b7babb;
+}
+
+.secondHeadingh3Three {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 0.5%;
+  color: #b7babb;
+}
+
+.computerContainer {
+  position: relative;
+  display: flex;
+  margin-top: 6%;
+}
+
+.computerImg {
+  position: relative;
+  left: -3%;
+  width: 55%;
+  height: 78vh;
+}
+
+.quickSearch {
+  position: relative;
+  left: 8.2%;
+  top: 5%;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.quickSearchPara {
+  position: relative;
+  margin-top: 10.2%;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1em;
+  color: #b7babb;
+  left: 8%;
+}
+
+.icloud {
+  position: relative;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1.2em;
+  white-space: nowrap;
+  left: 8%;
+  top: 15%;
+}
+
+.icloudPara {
+  position: relative;
+  margin-top: 25.2%;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1em;
+  color: #b7babb;
+  left: 8%;
+}
+
+.completeHis {
+  position: relative;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1.2em;
+  white-space: nowrap;
+  left: 8%;
+  top: 14%;
+}
+
+.completHisPara {
+  position: relative;
+  margin-top: 23.2%;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 1em;
+  color: #b7babb;
+  left: 8%;
+}
+
+.acAnywhereContainer {
+  position: relative;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.acaheading {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: #4e5358;
+  font-size: 2em;
+}
+
+.acaPara {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 1%;
+  color: #b7babb;
+}
+
+.acaPara1 {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #b7babb;
+  margin-top: 0.3%;
+}
+
+.clipBoardImgContainer {
+  position: relative;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.devImg {
+  position: relative;
+  width: 62%;
+  height: 70vh;
+  left: 20%;
+}
+
+.superChargeContainer {
+  position: relative;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.superChargeHeading {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: #4e5358;
+  font-size: 2em;
+}
+
+.superChargePara {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 1%;
+  color: #b7babb;
+}
+
+.iconContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 8%;
+  gap: 25%;
+}
+
+.iconHeading {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 13.8%;
+  font-weight: 600;
+  color: #4e5358;
+  font-family: "Bai Jamjuree";
+}
+
+.iconParaContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 1%;
+  gap: 3%;
+  font-weight: 600;
+  color: #b7babb;
+  font-family: "Bai Jamjuree";
+  flex-wrap: wrap;
+  left: 1%;
+  text-align: center;
+}
+
+.companyIcons {
+  display: flex;
+  position: relative;
+  margin-top: 8%;
+  gap: 10%;
+  justify-content: center;
+  width: auto;
+  height: 5vh;
+}
+
+.secondClipBoardContainer {
+  position: relative;
+  margin-top: 8%;
+  text-align: center;
+  
+}
+
+.secondClipboardHeading {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: #4e5358;
+  font-size: 1.5em;
+}
+
+.secondClipboardPara {
+  position: relative;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  margin-top: 1%;
+  color: #b7babb;
+}
+
+.clipIosBtn {
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #ffffff;
+  padding: 5px 5px;
+  background-color: #28baa5;
+  border: none;
+  width: 10%;
+  height: 6vh;
+  border-radius: 18px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 3%;
+  
+
+}
+
+.clipMacBtn {
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #ffffff;
+  padding: 5px 5px;
+  background-color: #6471e5;
+  border: none;
+  width: 10%;
+  height: 6vh;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 2%;
+}
