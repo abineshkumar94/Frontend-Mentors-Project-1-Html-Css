@@ -420,3 +420,103 @@
   gap: 20px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 420px) {
+  .headerBg {
+    height: 40vh;
+    width: 135%;
+    z-index: -1;
+  }
+
+  .copyrightimg1 {
+    position: absolute;
+    left: 52%;
+    width: 35%;
+    height: 23vh;
+  }
+
+  .heading {
+    position: relative;
+    left: 18%;
+    font-size: 2.8em;
+    margin-top: 18%;
+  }
+
+  .h3Heading1 {
+    margin-top: 10%;
+    left: 15%;
+    font-size: 1.5em;
+  }
+
+  .h3Heading2 {
+    left: 15%;
+    font-size: 1.2em;
+  }
+
+  .btnContainer {
+    flex-direction: column;
+    margin-top: 12%;
+    align-items: center;
+  }
+
+  .btnIos {
+    margin-left: 34%;
+    font-size: 1.6em;
+    border: none;
+    width: 90%;
+    height: 10vh;
+    border-radius: 28px;
+    box-shadow: 5px 5px;
+  }
+
+  .btnMac {
+    margin-left: 34%;
+    font-size: 1.6em;
+    border: none;
+    width: 90%;
+    height: 10vh;
+    border-radius: 28px;
+    margin-top: 7%;
+  }
+
+  .secondHeading {
+    margin-top: 20%;
+    left: 17%;
+  }
+
+  .secondHeadingh1 {
+    font-size: 2.8em;
+  }
+
+  .secondHeadingh3One {
+    font-weight: 400;
+    margin-top: 4%;
+    font-size: 1.2em;
+  }
+
+  .secondHeadingh3Two {
+    font-size: 1.2em;
+  }
+
+  .secondHeadingh3Three {
+    position: relative;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-weight: 400;
+    margin-top: 0.5%;
+    color: #b7babb;
+  }
+
+  .computerContainer {
+    position: relative;
+    display: flex;
+    margin-top: 6%;
+  }
+
+  .computerImg {
+    position: relative;
+    left: -3%;
+    width: 55%;
+    height: 78vh;
+  }
+}
