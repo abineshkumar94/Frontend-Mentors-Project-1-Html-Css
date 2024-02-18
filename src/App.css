@@ -313,7 +313,6 @@
   position: relative;
   margin-top: 8%;
   text-align: center;
-  
 }
 
 .secondClipboardHeading {
@@ -345,8 +344,6 @@
   cursor: pointer;
   position: relative;
   margin-top: 3%;
-  
-
 }
 
 .clipMacBtn {
@@ -361,4 +358,65 @@
   border-radius: 18px;
   cursor: pointer;
   margin-left: 2%;
+}
+
+.foterContainer {
+  position: relative;
+  display: flex;
+  margin-top: 10%;
+  width: 100%;
+  height: 28vh;
+  background-color: #eaebed;
+}
+
+.foterCopyrightImg {
+  position: relative;
+  width: 5%;
+  height: 9vh;
+  top: 35%;
+  left: 8%;
+}
+
+.listContainer {
+  position: relative;
+  display: flex;
+  left: 20%;
+  align-items: center;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  list-style-type: none;
+  flex-wrap: wrap;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  color: #4e5358;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.list li:hover {
+  color: #28baa5;
+}
+
+.listLast {
+  position: relative;
+  margin-top: 5%;
+}
+
+.listLastOne {
+  position: relative;
+  margin-left: -7%;
+}
+
+.iconMediaContainer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  left: 35%;
+  gap: 20px;
+  cursor: pointer;
 }
