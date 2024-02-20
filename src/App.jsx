@@ -20,6 +20,10 @@ const App = () => {
         Instantly
       </h3>
       <h3 className="h3Heading2">access your clipboard on all your devices.</h3>
+      <h3 className="headingMedia" >
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </h3>
       <div className="btnContainer ">
         <button className="btnIos">Download for iOS</button>
         <button className="btnMac ">Download for Mac</button>
@@ -202,9 +206,9 @@ const App = () => {
         />
         <div className="listContainer">
           <ul className="list ">
-            <li> FAQs</li>
-            <li>Contact Us</li>
-            <li> Privacy Policy</li>
+            <li className="listLastMedia "> FAQs</li>
+            <li className="listLastMedia ">Contact Us</li>
+            <li className="listLastMedia "> Privacy Policy</li>
             <li className="listLast "> Press Kit</li>
             <li className="listLast listLastOne "> Install Guide</li>
           </ul>

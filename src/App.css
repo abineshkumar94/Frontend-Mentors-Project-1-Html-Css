@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+/* body {
+  height: 100vh;
+  min-height: 100vh;
+  
+} */
+
 .headerContainer {
   position: relative;
 }
@@ -449,6 +455,10 @@
   display: none;
 }
 
+.headingMedia {
+  display: none;
+}
+
 @media screen and (max-width: 420px) {
   .headerBg {
     height: 40vh;
@@ -461,24 +471,34 @@
     left: 52%;
     width: 35%;
     height: 23vh;
+    top: 2%;
   }
 
   .heading {
     position: relative;
-    left: 18%;
+    left: 16%;
     font-size: 2.8em;
     margin-top: 18%;
   }
 
+  .headingMedia {
+    display: block;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-weight: 400;
+    margin-top: 5%;
+    color: #b7babb;
+    font-size: 1.8em;
+    position: relative;
+    left: 16%;
+  }
+
   .h3Heading1 {
-    margin-top: 10%;
-    left: 15%;
-    font-size: 1.5em;
+    display: none;
   }
 
   .h3Heading2 {
-    left: 15%;
-    font-size: 1.2em;
+    display: none;
   }
 
   .btnContainer {
@@ -841,7 +861,45 @@
     flex-direction: column;
     margin-top: 30%;
     width: 135%;
-    height: 50vh;
+    height: 85vh;
     background-color: #eaebed;
+  }
+
+  .listContainer {
+    left: 40%;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    top: 21%;
+  }
+
+  .iconMediaContainer {
+    left: 35%;
+    gap: 58px;
+    top: 20%;
+  }
+
+  .listLast {
+    position: relative;
+    margin-top: 25%;
+  }
+
+  .listLastMedia {
+    position: relative;
+    margin-top: 25%;
+    display: block;
+  }
+
+  .listLastOne {
+    margin-left: 0%;
+  }
+
+  .foterCopyrightImg {
+    width: 10%;
+    height: 9vh;
+    top: 10%;
+    left: 46%;
   }
 }
