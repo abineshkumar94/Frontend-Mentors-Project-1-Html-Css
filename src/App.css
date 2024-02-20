@@ -858,19 +858,16 @@ body {
   .foterContainer {
     flex-direction: column;
     margin-top: 30%;
-    width: 135%;
+    width: 100%;
     height: 85vh;
     background-color: #eaebed;
   }
-
-  /* .listContainer {
-    left: 40%;
-  } */
 
   .list {
     flex-direction: column;
     align-items: center;
     top: 21%;
+    left: 20%;
    
   }
 
