@@ -467,8 +467,8 @@ body {
   .copyrightimg1 {
     position: absolute;
     left: 52%;
-    width: 35%;
-    height: 23vh;
+    width: 30%;
+    height: 15vh;
     top: 2%;
   }
 
@@ -788,7 +788,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 80%;
+    margin-top: 95%;
     gap: 100%;
     justify-content: center;
     width: 45%;
