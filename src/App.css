@@ -7,6 +7,7 @@
 
 body {
   height: 100vh;
+  
 }
 
 .headerContainer {
@@ -856,11 +857,13 @@ body {
   }
 
   .foterContainer {
+    position: relative;
     flex-direction: column;
     margin-top: 30%;
-    width: 100%;
+    width: 135%;
     height: 85vh;
     background-color: #eaebed;
+    overflow-x: hidden;
   }
 
   .list {
@@ -894,7 +897,7 @@ body {
 
   .foterCopyrightImg {
     width: 10%;
-    height: 9vh;
+    height: 6%;
     top: 10%;
     left: 46%;
   } 
