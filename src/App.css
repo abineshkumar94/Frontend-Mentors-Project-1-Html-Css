@@ -567,7 +567,7 @@ body {
     position: relative;
     left: 25%;
     width: 80%;
-    height: 38vh;
+    height: 35vh;
     margin-top: 15%;
   }
 
@@ -710,7 +710,7 @@ body {
   .devImg {
     position: relative;
     width: 100%;
-    height: 38vh;
+    height: 35vh;
     left: 16%;
   }
 
@@ -898,7 +898,7 @@ body {
   .foterCopyrightImg {
     width: 12%;
     height: 7%;
-    top: 12%;
-    left: 47.5%;
+    top: 10%;
+    left: 47.2%;
   } 
 }
